@@ -23,14 +23,14 @@
                             fill="#0070D1" />
                     </svg>
                 </li>
-                <li><a class="nav_items" href="#">Games ⌄</a></li>
-                <li><a class="nav_items" href="#">PS5 ⌄</a></li>
-                <li><a class="nav_items" href="#">PS4 ⌄</a></li>
-                <li><a class="nav_items" href="#">Services ⌄</a></li>
-                <li><a class="nav_items" href="#">Accessoreies ⌄</a></li>
-                <li><a class="nav_items" href="#">News ⌄</a></li>
-                <li><a class="nav_items" href="#">Store ⌄</a></li>
-                <li><a class="nav_items" href="#">Support ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">Games ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">PS5 ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">PS4 ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">Services ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">Accessoreies ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">News ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">Store ⌄</a></li>
+                <li><a class="nav_items" href="#" data-url="">Support ⌄</a></li>
                 <li class="nav_right"><button class="nav_button">Sign In</button></li>
                 <li>
                     <?xml version="1.0" encoding="utf-8"?>
@@ -45,6 +45,10 @@
                             transform="translate(-2.31 -2.547)" fill-rule="evenodd" />
                     </svg>
                 </li>
+                <li id="search-bar-container">
+                    <input type="text" id="search-bar" placeholder="Search PlayStation.com" />
+                </li>
+
             </ul>
         </nav>
     </div>
@@ -64,11 +68,11 @@
     </section>
     <section classs="section1_img_flex">
         <div class="image-container">
-            <img src="assets/mafia_img.webp" alt="Image 1">
-            <img src="assets/battlefield_img.webp" alt="Image 2">
-            <img src="assets/summer_sale_img.webp" alt="Image 3">
-            <img src="assets/play_img.webp" alt="Image 4">
-            <img class="detiny2_img_flex" src="assets/destiny_img_flex.webp" alt="Image 5">
+            <img id="s1_img1" src="assets/mafia_img.webp" alt="Image 1">
+            <img id="s1_img2" src="assets/battlefield_img.webp" alt="Image 2">
+            <img id="s1_img3" src="assets/summer_sale_img.webp" alt="Image 3">
+            <img id="s1_img4" src="assets/play_img.webp" alt="Image 4">
+            <img id="s1_img5" class="detiny2_img_flex" src="assets/destiny_img_flex.webp" alt="Image 5">
         </div>
     </section>
     <section class="section2">
@@ -117,49 +121,56 @@
         </div>
         <section class=section3_1>
             <div class="section3_img_container1">
-                <div class="section3_img_card_flex1"><img src="assets/death_stranding_section3_img_flex.webp"
-                        alt="img1">
+                <div class="section3_img_card_flex1"><img id="s3_img1"
+                        src="assets/death_stranding_section3_img_flex.webp" alt="img1">
                     <p>Death Stranding 2: <br> On The Beach</p>
                 </div>
-                <div class="section3_img_card_flex1"><img class="zoomed_img_section3_flex"
+                <div class="section3_img_card_flex1"><img id="s3_img2" class="zoomed_img_section3_flex"
                         src="assets/astro_bot_section3_img_flex.webp" alt="img2">
                     <p>Astro Bot</p>
                 </div>
-                <div class="section3_img_card_flex1"><img class="zoomed_img_section3_flex"
+                <div class="section3_img_card_flex1"><img id="s3_img3" class="zoomed_img_section3_flex"
                         src="assets/tony_hwaks_section3_img_flex.webp" alt="img3">
                     <p>Tony Hwak's™: <br> Pro Skater™</p>
                 </div>
-                <div class="section3_img_card_flex1"><img src="assets/mafia_section3_img_flex.webp" alt="img4">
+                <div class="section3_img_card_flex1"><img id="s3_img4" src="assets/mafia_section3_img_flex.webp"
+                        alt="img4">
                     <p>Mafia: The Old Country</p>
                 </div>
-                <div class="section3_img_card_flex1"><img src="assets/elden_ring_section3_img_flex.webp" alt="img5">
+                <div class="section3_img_card_flex1"><img id="s3_img5" src="assets/elden_ring_section3_img_flex.webp"
+                        alt="img5">
                     <p>Elden Ring: Nightreign</p>
                 </div>
-                <div class="section3_img_card_flex1"><img src="assets/oblivion_section3_img_flex.webp" alt="img6">
+                <div class="section3_img_card_flex1"><img id="s3_img6" src="assets/oblivion_section3_img_flex.webp"
+                        alt="img6">
                     <p>The Elder Scrolls IV: <br> Oblivion</p>
                 </div>
             </div>
         </section>
         <section class=section3_2>
             <div class="section3_img_container2">
-                <div class="section3_img_card_flex2"><img src="assets/expedition_33_section3_img_flex.webp" alt="img1">
+                <div class="section3_img_card_flex2"><img id="s3_img7" src="assets/expedition_33_section3_img_flex.webp"
+                        alt="img1">
                     <p>Clair Obscur: Expedition 33</p>
                 </div>
-                <div class="section3_img_card_flex2"><img class="zoomed_img_section3_flex"
+                <div class="section3_img_card_flex2"><img id="s3_img8" class="zoomed_img_section3_flex"
                         src="assets/forza_section3_img_flex.webp" alt="img2">
                     <p>Forza Horizon 5</p>
                 </div>
-                <div class="section3_img_card_flex2"><img class="zoomed_img_section3_flex"
+                <div class="section3_img_card_flex2"><img id="s3_img9" class="zoomed_img_section3_flex"
                         src="assets/cod_section3_img_flex.webp" alt="img3">
                     <p>Call Of Duty&reg;: <br> Black Ops 6</p>
                 </div>
-                <div class="section3_img_card_flex2"><img src="assets/monster_hunter_section3_img_flex.webp" alt="img4">
+                <div class="section3_img_card_flex2"><img id="s3_img10"
+                        src="assets/monster_hunter_section3_img_flex.webp" alt="img4">
                     <p>Monster Hunter wilds</p>
                 </div>
-                <div class="section3_img_card_flex2"><img src="assets/wukong_section3_img_flex.webp" alt="img5">
+                <div class="section3_img_card_flex2"><img id="s3_img11" src="assets/wukong_section3_img_flex.webp"
+                        alt="img5">
                     <p>Black Myth: Wukong</p>
                 </div>
-                <div class="section3_img_card_flex2"><img src="assets/helldivers__section3_img_flex.webp" alt="img6">
+                <div class="section3_img_card_flex2"><img id="s3_img12" src="assets/helldivers__section3_img_flex.webp"
+                        alt="img6">
                     <p>Helldivers™ 2</p>
                 </div>
             </div>
@@ -204,15 +215,18 @@
     </section>
     <section class="section6_img_flex">
         <div class="section6_img_container">
-            <div class="section6_img_card_flex"><img src="assets/metal_gear_section6_img_flex.webp" alt="img1">
+            <div id="s6_img1" class="section6_img_card_flex"><img src="assets/metal_gear_section6_img_flex.webp"
+                    alt="img1">
                 <p class="section6_p1">New releases</p>
                 <p>Check out this month's biggest new titles, Including <br> Metal Gear Solid Δ: Snake Eater.</p>
             </div>
-            <div class="section6_img_card_flex"><img src="assets/sword_of_the_sea_section6_img_flex.webp" alt="img2">
+            <div id="s6_img2" class="section6_img_card_flex"><img src="assets/sword_of_the_sea_section6_img_flex.webp"
+                    alt="img2">
                 <p class="section6_p1">PlayStation Indies</p>
                 <p>Discover this month's most exiting and unique indies <br> releases including Sword of the Sea.</p>
             </div>
-            <div class="section6_img_card_flex"><img src="assets/fortnite_section6_img_flex.webp" alt="img3">
+            <div id="s6_img3" class="section6_img_card_flex"><img src="assets/fortnite_section6_img_flex.webp"
+                    alt="img3">
                 <p class="section6_p1">Latest updates</p>
                 <p>Keep up to date with the month's biggest new <br> events, including Fornite: Battle Royale's latest
                     <br> season Shock N' Awesome.
@@ -239,14 +253,16 @@
     <section class="section8">
         <h2 class="section8_h2">The latest news from PlayStation Blog</h2>
         <div class="section8_img_container">
-            <div class="section8_img_card_flex"><img src="assets/metal_gear_section6_img_flex.webp" alt="img1">
+            <div class="section8_img_card_flex"><img id="s8_i1" src="assets/metal_gear_section6_img_flex.webp"
+                    alt="img1">
                 <p class="section8_p1">Midnight Murder Club jumps out of the early access <br> shadows today.</p>
                 <p> After five months of Early Access updates and <br> playtesting, it is my pleasure to present the
                     full <br> release of Midnight Murder Club. I’m Eric Feurstein, <br> Game Director on Midnight Murder
                     Club from Velan Studios. <br> First thing’s first, I want to thank everyone who <br> participated in
                     all the open betas, <br>playtests and the Early Access phase… </p>
             </div>
-            <div class="section8_img_card_flex"><img src="assets/sword_of_the_sea_section6_img_flex.webp" alt="img2">
+            <div class="section8_img_card_flex"><img id="s8_i2" src="assets/sword_of_the_sea_section6_img_flex.webp"
+                    alt="img2">
                 <p class="section8_p1">PlayStation Plus Game Catalog for August: Mortal <br> Kombat 1, Marvel’s
                     Spider-Man, Sword of the Sea, Earth <br> Defense Force 6 and more </p>
                 <p> As we’ve entered the 15th year of PlayStation Plus, <br> we’ve got even more great content for
@@ -254,7 +270,7 @@
                     Kombat 1, swing through Marvel’s <br> New York skyline as the iconic web-slinger in Marvel’s <br>
                     Spider-Man, or gear up to repel swarming alien forces in Earth… </p>
             </div>
-            <div class="section8_img_card_flex"><img src="assets/fortnite_section6_img_flex.webp" alt="img3">
+            <div class="section8_img_card_flex"><img id="s8_i3" src="assets/fortnite_section6_img_flex.webp" alt="img3">
                 <p class="section8_p1">15 must-play indies to mark 15 years of PlayStation Plus</p>
                 <p> For the past 15 years, PlayStation Plus has served as <br> a welcoming home for indie games,
                     connecting players <br> with some of the most innovative, heartfelt, and <br> personal experiences
@@ -266,10 +282,10 @@
     <section class="section9">
         <h2 class="section9_h2">Follow us on social media</h2>
         <div class="section9_img_container">
-            <img class="section9_img" src="assets/x.webp" alt="img_1">
-            <img class="section9_img" src="assets/facebook.webp" alt="img_2">
-            <img class="section9_img" src="assets/insta.webp" alt="img_3">
-            <img class="section9_img" src="assets/youtube.webp" alt="img_4">
+            <img id="s9_1" class="section9_img" src="assets/x.webp" alt="img_1">
+            <img id="s9_2" class="section9_img" src="assets/facebook.webp" alt="img_2">
+            <img id="s9_3" class="section9_img" src="assets/insta.webp" alt="img_3">
+            <img id="s9_4" class="section9_img" src="assets/youtube.webp" alt="img_4">
         </div>
     </section>
     <section class="section10">
@@ -288,55 +304,57 @@
             <div class="last_section_text_flex_container">
                 <ul class="parent_ul">
                     <li class="li_top">About</li>
-                    <li class="li_middle">About SIE</li>
-                    <li class="li_middle">Careers</li>
-                    <li class="li_middle">PlayStation Studios</li>
-                    <li class="li_middle">PlayStation Productions</li>
-                    <li class="li_middle">Corporate</li>
-                    <li class="li_middle">History of PlayStation</li>
+                    <li id="last1_1" class="li_middle">About SIE</li>
+                    <li id="last1_2" class="li_middle">Careers</li>
+                    <li id="last1_3" class="li_middle">PlayStation Studios</li>
+                    <li id="last1_4" class="li_middle">PlayStation Productions</li>
+                    <li id="last1_5" class="li_middle">Corporate</li>
+                    <li id="last1_6" class="li_middle">History of PlayStation</li>
                 </ul>
                 <ul class="parent_ul">
                     <li class="li_top">Products</li>
-                    <li class="li_middle">PS5</li>
-                    <li class="li_middle">PS4</li>
-                    <li class="li_middle">PS VR2</li>
-                    <li class="li_middle">PS Plus</li>
-                    <li class="li_middle">Accessoreies</li>
-                    <li class="li_middle">Games</li>
+                    <li id="last2_1" class="li_middle">PS5</li>
+                    <li id="last2_2" class="li_middle">PS4</li>
+                    <li id="last2_3" class="li_middle">PS VR2</li>
+                    <li id="last2_4" class="li_middle">PS Plus</li>
+                    <li id="last2_5" class="li_middle">Accessoreies</li>
+                    <li id="last2_6" class="li_middle">Games</li>
                 </ul>
                 <ul class="parent_ul">
                     <li class="li_top">Values</li>
-                    <li class="li_middle">Environment</li>
-                    <li class="li_middle">Accessibility</li>
-                    <li class="li_middle">Online safety</li>
-                    <li class="li_middle">Diversity, equity & inclusion</li>
+                    <li id="last3_1" class="li_middle">Environment</li>
+                    <li id="last3_2" class="li_middle">Accessibility</li>
+                    <li id="last3_3" class="li_middle">Online safety</li>
+                    <li id="last3_4" class="li_middle">Diversity, equity & inclusion</li>
                 </ul>
                 <ul class="parent_ul">
                     <li class="li_top">Support</li>
-                    <li class="li_middle">Support hub</li>
-                    <li class="li_middle">PlayStation Safety</li>
-                    <li class="li_middle">PSN Status</li>
-                    <li class="li_middle">PlayStation Repairs</li>
-                    <li class="li_middle">Password reset</li>
+                    <li id="last4_1" class="li_middle">Support hub</li>
+                    <li id="last4_2" class="li_middle">PlayStation Safety</li>
+                    <li id="last4_3" class="li_middle">PSN Status</li>
+                    <li id="last4_4" class="li_middle">PlayStation Repairs</li>
+                    <li id="last4_5" class="li_middle">Password reset</li>
                 </ul>
                 <ul class="parent_ul">
                     <li class="li_top">Resources</li>
-                    <li class="li_middle">PSN terms of service</li>
-                    <li class="li_middle">PS Store cancellation policy</li>
-                    <li class="li_middle">Age ratings</li>
-                    <li class="li_middle">Health warning</li>
-                    <li class="li_middle">Developers</li>
-                    <li class="li_middle">Glossary</li>
-                    <li class="li_middle">Official licensing programme</li>
+                    <li id="last5_1" class="li_middle">PSN terms of service</li>
+                    <li id="last5_2" class="li_middle">PS Store cancellation policy</li>
+                    <li id="last5_3" class="li_middle">Age ratings</li>
+                    <li id="last5_4" class="li_middle">Health warning</li>
+                    <li id="last5_5" class="li_middle">Developers</li>
+                    <li id="last5_6" class="li_middle">Glossary</li>
+                    <li id="last5_7" class="li_middle">Official licensing programme</li>
                 </ul>
                 <ul class="parent_ul">
                     <li class="li_top">Connect</li>
-                    <li><img class="last_flex_img" src="assets/facebook_white.png" alt="facebook_logo"> <img
-                            class="last_flex_img" src="assets/x_white.png" alt="x_logo"> <img class="last_flex_img"
-                            src="assets/instagram_white.png" alt="instagram_logo"></li>
-                    <li><img class="last_flex_img1" src="assets/youtube_white.webp" alt="youtube_logo"></li>
-                    <li class="li_middle">iOS app</li>
-                    <li class="li_middle">Android APP</li>
+                    <li><img id="last_img_1" class="last_flex_img" src="assets/facebook_white.png" alt="facebook_logo">
+                        <img id="last_img_2" class="last_flex_img" src="assets/x_white.png" alt="x_logo"> <img
+                            id="last_img_3" class="last_flex_img" src="assets/instagram_white.png" alt="instagram_logo">
+                    </li>
+                    <li><img id="last_img_4" class="last_flex_img1" src="assets/youtube_white.webp" alt="youtube_logo">
+                    </li>
+                    <li id="last6_1" class="li_middle">iOS app</li>
+                    <li id="last6_2" class="li_middle">Android APP</li>
                 </ul>
             </div>
             <hr class="hr1">
@@ -350,19 +368,18 @@
             <footer class="footer">
                 <span class="footer_left">India ></span>
                 <span class="footer_right">
-                    <span class="footer_right_items">Legal |</span>
-                    <span class="footer_right_items">Privacy policy |</span>
-                    <span class="footer_right_items">Website terms of use |</span>
-                    <span class="footer_right_items">Site Map |</span>
-                    <span class="footer_right_items">Cookies Policy |</span>
-                    <span class="footer_right_items">Software Usage Terms</span>
+                    <span id="footer_1" class="footer_right_items">Legal |</span>
+                    <span id="footer_2" class="footer_right_items">Privacy policy |</span>
+                    <span id="footer_3" class="footer_right_items">Website terms of use |</span>
+                    <span id="footer_4" class="footer_right_items">Site Map |</span>
+                    <span id="footer_5" class="footer_right_items">Cookies Policy |</span>
+                    <span id="footer_6" class="footer_right_items">Software Usage Terms</span>
                 </span>
             </footer>
         </div>
     </section>
 
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
